@@ -1,0 +1,1 @@
+ALTER TABLE "order" ADD COLUMN "has_been_shipped_at" timestamp;

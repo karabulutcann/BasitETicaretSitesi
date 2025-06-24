@@ -1,0 +1,1 @@
+ALTER TABLE "email_verification" ADD CONSTRAINT "email_verification_email_unique" UNIQUE("email");
