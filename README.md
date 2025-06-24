@@ -16,7 +16,7 @@ Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
 ```bash
 # Repoyu klonlayın
-git clone https://github.com/karabulutcann/BasicEcommerce.git basic-ecommerce
+git clone https://github.com/karabulutcann/BasitETicaretSitesi.git basic-ecommerce
 cd basic-ecommerce
 
 # Bağımlılıkları yükleyin
