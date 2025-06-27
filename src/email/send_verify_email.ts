@@ -6,7 +6,7 @@ import { VerifyEmailTemplate } from './template/verify_email';
 export async function sendVerifyEmail(code:string,name:string,email:string) {
   try {
     const { data, error } = await resend.emails.send({
-      from: 'LoremIpsum <info@LoremIpsum.store>',
+      from: 'LoremIpsum <info@resend.dev>',
       to: [email],
       subject: 'Email Doğrulama',
       react: VerifyEmailTemplate({ code: code, name: name ,email: email}),
